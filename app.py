@@ -3,10 +3,9 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from fastai.vision.all import *
 import tensorflow as tf
-import cv2
-import pathlib
+#import pathlib
 import plotly.express as px
-from PIL import Image
+#from PIL import Image
 
 # Title of project
 st.title('Single digit classificator model!')
