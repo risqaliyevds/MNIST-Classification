@@ -69,9 +69,9 @@ if file:
 st.warning('To get higer accuracy please use paint and black background!', icon="⚠️")
 st.success('Right formats', icon="✅")
 
-img1 = image_square("examples/one.jpg", 230)
-img2 = image_square("examples/seven.jpg", 230)
-img3 = image_square("examples/three.jpg", 230)
+img1 = image_square("examples/0.jpg", 230)
+img2 = image_square("examples/7.jpg", 230)
+img3 = image_square("examples/9.jpg", 230)
 
 images = [img1, img2, img3]
 st.image(images, use_column_width=False, caption=["Right format"] * len(images))
@@ -79,9 +79,9 @@ st.image(images, use_column_width=False, caption=["Right format"] * len(images))
 # Display the correct images
 st.error('Uncorrect photo samples', icon="🚨")
 
-img1_w = image_square("examples/one_white.jpg", 230)
-img2_w = image_square("examples/seven_white.jpg", 230)
-img3_w = image_square("examples/three_white.jpg", 230)
+img1_w = image_square("examples/11.jpg", 230)
+img2_w = image_square("examples/61.jpg", 230)
+img3_w = image_square("examples/71.jpg", 230)
 
 images_w = [img1_w, img2_w, img3_w]
 st.image(images_w, use_column_width=False, caption=["Wrong format"] * len(images))
